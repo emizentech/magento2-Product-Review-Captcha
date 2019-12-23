@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+   <event name="controller_action_predispatch_review_product_post">
+       <observer name="emizentech_captcha_observer_checkreviewpostobserver" instance="Emizentech\Captcha\Observer\Checkreviewpostobserver" />
+   </event>
+</config>

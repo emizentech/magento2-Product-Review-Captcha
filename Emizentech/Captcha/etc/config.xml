@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <customer>
+            <captcha>
+                <always_for>
+                    <review_form>1</review_form>
+                </always_for>
+                <shown_to_logged_in_user>
+                   <review_form>1</review_form>
+                </shown_to_logged_in_user>
+            </captcha>
+        </customer>
+        <captcha translate="label">
+            <frontend>
+                <areas>
+                    <review_form>
+                        <label>Review</label>
+                    </review_form>
+                </areas>
+            </frontend>
+        </captcha>
+    </default>
+</config>
